@@ -25,7 +25,7 @@ const Header = () => {
             <li className="menu__item">
               <a href="#footer">Контакти</a>
             </li>
-          </ul>{" "}
+          </ul>
           <div onClick={() => setNav(!nav)} className="burger-btn">
             {nav ? <AiOutlineClose size={35} /> : <AiOutlineMenu size={35} />}
           </div>

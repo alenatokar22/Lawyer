@@ -1,4 +1,5 @@
 import React from "react";
+import sertificate_1 from "../photo/sertificate_1.jpg"
 
 const About = () => {
   return (
@@ -27,9 +28,9 @@ const About = () => {
         </div>
       </div>
       <div className="sertifacate">
-        <img src="../../../public/sertificate_1.jpg" alt="" />
-        <img src="../../../public/sertificate_1.jpg" alt="" />
-        <img src="../../../public/sertificate_1.jpg" alt="" />
+        <img src={sertificate_1} alt="" />
+        <img src={sertificate_1} alt="" />
+        <img src={sertificate_1} alt="" />
       </div>
     </div>
   );
