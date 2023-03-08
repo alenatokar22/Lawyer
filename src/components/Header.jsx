@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import logo from "../photo/logo.png";
 
 const Header = () => {
   const [nav, setNav] = useState(false);
@@ -9,7 +10,7 @@ const Header = () => {
       <div className="header__inner">
         <div className="container header__container">
           <a href="#" className="logo">
-            <img src="../../../public/logo.png" alt="" className="logo__img" />
+            <img src={logo} alt="" className="logo__img" />
           </a>
           <ul className={nav ? "menu__list active" : "menu__list"}>
             <li className="menu__item">
